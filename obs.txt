@@ -1,0 +1,10 @@
+>>> a = (1, 2)
+>>> b = (1, 2)
+>>> result = div_interval(a, b)
+>>> result
+(0.5, 2.0)
+>>> b = (2, 2.01)
+>>> result = div_interval(a, b)
+>>> result
+(0.49751243781094534, 1.0)
+>>>
